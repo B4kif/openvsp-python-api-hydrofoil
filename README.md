@@ -10,13 +10,13 @@ The hydrofoil is modeled as a wing-like lifting surface with a main foil and win
 
 ## Repository Structure
 
-- `hydrofoilgenis_model.py`  
+- `Python_scripts/hydrofoilgenis_model.py`  
   Creates the parametric hydrofoil geometry and saves it as a `.vsp3` file.
 
-- `hydrofoilgenis_analysis.py`  
+- `Python_scripts/hydrofoilgenis_analysis`  
   Runs a single-point VSPAERO analysis and extracts aerodynamic results such as lift coefficient, drag terms, and estimated lift/drag forces.
 
-- `hydrofoilgenis_iterativeanalysis.py`  
+- `Python_scripts/hydrofoilgenis_iterativeanalysis.py`  
   Runs an iterative study over multiple span values, compares the results, and exports them to CSV.
 
 ## Features

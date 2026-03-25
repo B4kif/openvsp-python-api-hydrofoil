@@ -18,6 +18,12 @@ The hydrofoil is modeled as a wing-like lifting surface with a main foil and win
 
 - `Python_scripts/hydrofoilgenis_iterativeanalysis.py`  
   Runs an iterative study over multiple span values, compares the results, and exports them to CSV.
+  
+  ## Requirements
+
+- OpenVSP with Python API installed locally
+- numpy
+- pandas
 
 ## Features
 
